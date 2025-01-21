@@ -16,6 +16,7 @@ export function distribution(
   console.log(`MAKE DISTRIBUTION LIST FOR ROUND ${roundNumber}`);
   const distributionList: DistributionList = {};
   const approvedSubmitters = [];
+  console.log("Maximum BOUNTY", bounty);
   // Slash the stake of submitters who submitted incorrect values
   // and make a list of submitters who submitted correct values
   for (const submitter of submitters) {
@@ -34,7 +35,7 @@ export function distribution(
     return distributionList;
   }
   // reward the submitters who submitted correct values
-  const reward = bounty;
+  const reward = 0.2 * 1000000000;
   console.log("REWARD PER NODE", reward);
   approvedSubmitters.forEach((candidate) => {
     distributionList[candidate] = reward;
