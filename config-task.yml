@@ -1,18 +1,18 @@
 # Task Name: (Required) 
-task_name: 'Free SOMA Task'
+task_name: 'Free SONO Task'
 # Task Author: (Required) 
-author: 'Soma'
+author: 'Reverie Field'
 
 markdownDescriptionPath: "./TaskDescription.md"
 
 # Task Description
 description: ''
 # Repository URL: (Required)
-repositoryUrl: 'https://github.com/somali0128/task-free-soma' 
+repositoryUrl: 'https://github.com/CatchTheRecord/reverie-field-compute-task' 
 # Image URL: (Required) Will be displayed in desktop node
-imageUrl: 'https://bafybeiad7bcvmuv3byugv6sbyqoe7wasqditjknfytb7ro2qhflcm47h74.ipfs.w3s.link/Soma%20task.png'
+imageUrl: 'https://catchtherecord.com/files/1305664/qmuuddwu1pgtyx4k7hdhnmjchtja4xjbfgdsswpwzu1py9.png'
 # Info URL: (Required) Will be displayed in desktop node
-infoUrl: 'https://www.koii.network/ocean/Soma'
+infoUrl: 'https://www.koii.network/ocean/SONO'
 
 # Task executable network: (Required | DEVELOPMENT, ARWEAVE, or IPFS) : IPFS is the default and common value
 task_executable_network: 'IPFS'
@@ -36,20 +36,20 @@ minimum_stake_amount: 0.1
 task_type: 'KPL'
 
 # Token Mint Address: (ONLY task_type == KPL) SOMA.
-token_type: "AoH4CZCusGBivTYAPukc8euJDHDsbbcfyDcL429GFj3C"
+token_type: "BY5Vjkd34oK9QeahjPdTPkQFGBawFycSrkDSqE8JXqc5"
 
 # Total bounty amount:  (Required) The total bounty amount that will be distributed to the task. (Not accepted in case of update task).
-total_bounty_amount: 1000000
+total_bounty_amount: 10000
 
 # Bounty amount per round: (Required) Every round's maximum distribution, you can decide the logics in your task. 
-bounty_amount_per_round: 5000
+bounty_amount_per_round: 3000
 
 # Allowed failed distributions: (Required) Number of times re-submission is allowed for the distribution list in case of an audit, it is also the rounds of submission it will keep. 
 allowed_failed_distributions: 3
 
 # Space: (Required) Expected Task Data Size in MBs for the account size. 
 # Minimum: 1 for production, 0.1 for testing; Calculation Details: https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#space
-space: 1
+space: 0.2
 
 # Requirement Tags: (Optional): To add more global variables and task variables, please refer to the type, value, description format shown below.
 requirementsTags:
@@ -61,13 +61,13 @@ requirementsTags:
     value: '5 GB'
     
 # Tags: You can select the tags here via https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#tags
-tags: [""] 
+tags: ["DATA", "audio", "SONO", "web3gaming"]
 # Environment: (Required | TEST or PRODUCTION) Production mode will expose your task to all the task runners. 
-environment: "PRODUCTION"
+environment: "TEST"
 
 #################################### BELOW IS FOR UPDATE TASK ONLY ####################################
 # Old Task ID: (ONLY for task update) 
-task_id: '59qKFH7S6zAJfc1dHMp8aNrSK3cJjQewqdQwfmGuLtVq'
+task_id: ''
 
 # Migration Description: (ONLY for task update)
-migrationDescription: 'Fix reward is not distributed properly'
+migrationDescription: ''
