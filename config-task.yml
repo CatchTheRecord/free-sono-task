@@ -8,9 +8,9 @@ markdownDescriptionPath: "./TaskDescription.md"
 # Task Description
 description: ''
 # Repository URL: (Required)
-repositoryUrl: 'https://github.com/CatchTheRecord/reverie-field-compute-task' 
+repositoryUrl: 'https://github.com/CatchTheRecord/free-sono-task' 
 # Image URL: (Required) Will be displayed in desktop node
-imageUrl: 'https://catchtherecord.com/files/1305664/qmuuddwu1pgtyx4k7hdhnmjchtja4xjbfgdsswpwzu1py9.png'
+imageUrl: 'https://catchtherecord.com/files/1342850/photo-2024-08-25-23-13-12.jpg'
 # Info URL: (Required) Will be displayed in desktop node
 infoUrl: 'https://www.koii.network/ocean/SONO'
 

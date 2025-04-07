@@ -3,11 +3,11 @@
 import { Submitter, DistributionList } from "@_koii/task-manager";
 const SLASH_PERCENT = 0.7;
 
-export function distribution(
+export async function distribution(
   submitters: Submitter[],
   bounty: number,
   roundNumber: number,
-): DistributionList {
+): Promise<DistributionList> {
   /**
    * Generate the reward list for a given round
    * This function should return an object with the public keys of the submitters as keys
@@ -35,7 +35,7 @@ export function distribution(
     return distributionList;
   }
   // reward the submitters who submitted correct values
-  const reward = 0.2 * 1000000000;
+  const reward = 0.5 * 1000000000;
   console.log("REWARD PER NODE", reward);
   approvedSubmitters.forEach((candidate) => {
     distributionList[candidate] = reward;

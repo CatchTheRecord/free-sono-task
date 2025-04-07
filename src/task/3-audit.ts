@@ -8,5 +8,5 @@ export async function audit(
    * This function should return true if the submission is correct, false otherwise
    */
   console.log(`AUDIT SUBMISSION FOR ROUND ${roundNumber} from ${submitterKey}`);
-  return submission === "All descriptions data received!";
+  return submission === "Hello, Sonic explorer!";
 }
